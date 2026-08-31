@@ -40,6 +40,15 @@
       }
     }
 
+    &.button-danger {
+      background-color: var(--button-danger-background);
+      color: var(--button-text);
+
+      &:hover {
+        background-color: var(--button-danger-background-hover);
+      }
+    }
+
     &.button-outline {
       background-color: #ffffff;
       border: 1px solid #d9d9d9;
