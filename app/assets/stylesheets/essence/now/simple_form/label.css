@@ -25,7 +25,11 @@
   &:not(.collection_radio_buttons) {
     color: var(--formGroup-label);
     font-size: 13px;
-    font-weight: bold;
+    font-weight: normal;
+  }
+
+  &:not(.boolean, .collection_check_boxes, .collection_radio_buttons, .toggle, .file-name) {
+    margin-bottom: 4px;
   }
 
   &.boolean,
