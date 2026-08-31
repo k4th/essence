@@ -23,7 +23,7 @@
 
   &:not(:disabled):not(.button-busy) {
     &.button-primary {
-      background-color: #56b0ef;
+      background-color: #227bbb;
       color: #ffffff;
 
       &:hover {

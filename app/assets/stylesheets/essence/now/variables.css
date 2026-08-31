@@ -282,11 +282,13 @@
   /*  ---------------------------------------------------
   /*  Tooltip
   /*  --------------------------------------------------- */
-  --tooltip-icon: #4b4b4b;
-  --tooltip-background: #4b4b4b;
-  --tooltip-text: #ffffff;
+  --tooltip-icon: #5b5b5b;
+  --tooltip-background: #5b5b5b;
+  --tooltip-text: #f0f0f0;
+  --tooltip-maxWidth: 208px;
+  --tooltip-padding: 12px;
   --tooltip-borderRadius: 3px;
   --tooltip-boxShadow: 0 0 14px 0 rgba(0, 0, 0, 0.4);
-  --tooltip-link: var(--primaryLink-color);
-  --tooltip-link-hover: var(--primaryLink-hover-color);
+  --tooltip-link: var(--tooltip-text);
+  --tooltip-link-hover: var(--white);
 }
