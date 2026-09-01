@@ -24,16 +24,7 @@
       color: #ffffff;
 
       &:hover {
-        background-color: #279aeb;
-      }
-    }
-
-    &.button-secondary {
-      background-color: #969696;
-      color: #fff;
-
-      &:hover {
-        background-color: #7d7d7d;
+        background-color: #1a5f90;
       }
     }
 
@@ -46,10 +37,11 @@
       }
     }
 
-    &.button-outline {
+    &.button-outline,
+    &.button-secondary {
       background-color: #ffffff;
       border: 1px solid #d9d9d9;
-      color: #56b0ef;
+      color: #227bbb;
       font-weight: 700;
 
       &:hover {
@@ -58,7 +50,7 @@
     }
 
     &.button-copilot {
-      background-color: #56b0ef;
+      background-color: #227bbb;
       color: #ffffff;
 
       &::before {
@@ -75,7 +67,7 @@
       }
 
       &:hover {
-        background-color: #279aeb;
+        background-color: #1a5f90;
       }
     }
   }
